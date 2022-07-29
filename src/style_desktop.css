@@ -480,20 +480,52 @@ form {
     top: 16px;
     right: 116px;
 }
-.footer-div {
-  background-color: #242424;
-  display: flex;
-  flex-direction: column;
-  width: 99%;
-  flex-wrap: wrap;
-  height: 16rem;
-  margin-top: 48px;
-}
+ 
  footer
  {
     display: flex;
     justify-content: space-evenly;
 
  }
+ .footer-div {
+  background-color: #242424;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  flex-wrap: wrap;
+  height: 16rem;
+  margin-top: 48px;
+}
    
- 
+
+#slider {
+  width: 100%;
+  height: 719px;
+  background-image: url("./images/slide1.jpg");
+  padding: 5px 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+background-repeat: no-repeat;
+}
+
+.fa-solid, .fas {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  color: white;
+  font-size: 58px;
+  padding: 15px;
+}
+.fa-solid, .fas:hover {
+ cursor: pointer;
+}
+
+.sub-tag {
+  position: relative;
+  font-size: 15.7px;
+  color: white;
+  font-family: "Vollkorn", serif;
+  font-style: italic;
+  top: 90px;
+  left: 465px;
+}
